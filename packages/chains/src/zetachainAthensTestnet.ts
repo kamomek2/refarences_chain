@@ -1,7 +1,7 @@
 import { Chain } from './types'
 
 export const zetachainAthensTestnet = {
-  id: 7_000,
+  id: 7_001,
   name: 'ZetaChain Athens Testnet',
   network: 'ZetaChain Athens Testnet',
   nativeCurrency: {
