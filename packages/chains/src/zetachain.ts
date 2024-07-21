@@ -10,7 +10,7 @@ export const zetachain = {
     symbol: 'ZETA',
   },
   rpcUrls: {
-    default: { http: ['https://zeta-chain.drpc.org'] },
+    default: { http: ['https://zetachain-evm.blockpi.network/v1/rpc/public'] },
     public: { http: ['https://zetachain-evm.blockpi.network/v1/rpc/public'] },
   },
   blockExplorers: {
@@ -23,4 +23,5 @@ export const zetachain = {
       blockCreated: 11907934,
     },
   },
+  testnet: false
 } as const satisfies Chain

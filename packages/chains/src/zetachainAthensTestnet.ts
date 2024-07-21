@@ -10,7 +10,7 @@ export const zetachainAthensTestnet = {
     symbol: 'ZETA',
   },
   rpcUrls: {
-    default: { http: ['https://zeta-chain-testnet.drpc.org'] },
+    default: { http: ['https://zetachain-athens-evm.blockpi.network/v1/rpc/public'] },
     public: { http: ['https://zetachain-athens-evm.blockpi.network/v1/rpc/public'] },
   },
   blockExplorers: {
